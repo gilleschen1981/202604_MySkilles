@@ -1,12 +1,18 @@
 # MySkills
 
-Personal Claude Code skills collection.
+Personal Claude Code skills and commands collection.
 
 ## Skills
 
 | Skill | Trigger | Description |
 |-------|---------|-------------|
 | [git-health](skills/git-health/SKILL.md) | `/git-health` | Analyze git repo health: hot files, contributors, bug hotspots, activity trends |
+
+## Commands
+
+| Command | Trigger | Description |
+|---------|---------|-------------|
+| [mdout](commands/mdout.md) | `/mdout [path]` | Save last response to markdown file |
 
 ## Usage
 
