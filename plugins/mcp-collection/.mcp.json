@@ -1,0 +1,12 @@
+{
+  "filesystem": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "@anthropic-ai/mcp-server-filesystem", "/tmp"]
+  },
+  "fetch": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "@anthropic-ai/mcp-server-fetch"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "yiming-toolkit",
+  "description": "Personal Claude Code plugin marketplace - skills, commands, and MCP servers",
+  "owner": {
+    "name": "Yiming Chen",
+    "email": "yiming.chen@example.com"
+  },
+  "plugins": [
+    {
+      "name": "git-tools",
+      "description": "Git repository analysis and health checking tools",
+      "category": "development",
+      "source": "./plugins/git-tools"
+    },
+    {
+      "name": "dev-workflow",
+      "description": "Development workflow automation - debug, deploy, output",
+      "category": "development",
+      "source": "./plugins/dev-workflow"
+    },
+    {
+      "name": "mcp-collection",
+      "description": "Curated MCP server configurations",
+      "category": "integration",
+      "source": "./plugins/mcp-collection"
+    }
+  ]
+}

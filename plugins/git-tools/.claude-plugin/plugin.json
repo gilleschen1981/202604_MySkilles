@@ -1,0 +1,8 @@
+{
+  "name": "git-tools",
+  "version": "1.0.0",
+  "description": "Git repository analysis and health checking tools",
+  "author": {
+    "name": "Yiming Chen"
+  }
+}

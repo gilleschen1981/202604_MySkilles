@@ -1,0 +1,8 @@
+{
+  "name": "mcp-collection",
+  "version": "1.0.0",
+  "description": "Curated MCP server configurations for common development tasks",
+  "author": {
+    "name": "Yiming Chen"
+  }
+}
