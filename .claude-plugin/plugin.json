@@ -1,0 +1,16 @@
+{
+  "name": "my-skills",
+  "version": "1.0.0",
+  "description": "Personal Claude Code skills and commands collection",
+  "author": {
+    "name": "Yiming Chen"
+  },
+  "repository": "https://github.com/yiming-chen/MySkills",
+  "skills": [
+    "./skills/git-health",
+    "./skills/debug-local"
+  ],
+  "commands": [
+    "./commands/mdout.md"
+  ]
+}
