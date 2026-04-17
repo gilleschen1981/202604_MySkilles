@@ -4,11 +4,22 @@ Personal Claude Code plugin marketplace - skills, commands, and MCP servers.
 
 ## Available Plugins
 
-| Plugin | Description |
-|--------|-------------|
-| **git-tools** | Git repository analysis and health checking |
-| **dev-workflow** | Development workflow automation (debug, deploy, output) |
-| **mcp-collection** | Curated MCP server configurations |
+| Plugin | Description | Source |
+|--------|-------------|--------|
+| **git-tools** | Git repository analysis and health checking | Local |
+| **dev-workflow** | Development workflow automation | Local |
+| **mcp-collection** | Curated MCP server configurations | Local |
+| **superpowers** | Agentic skills framework - TDD, debugging, collaboration | [obra/superpowers](https://github.com/obra/superpowers) |
+
+### Recommended External Plugins
+
+These are not included in this marketplace but recommended:
+
+```bash
+# spec-kit (from claude-night-market)
+claude plugin marketplace add athola/claude-night-market
+claude plugin install spec-kit@claude-night-market
+```
 
 ## Installation
 

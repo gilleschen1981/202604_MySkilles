@@ -24,6 +24,16 @@
       "description": "Curated MCP server configurations",
       "category": "integration",
       "source": "./plugins/mcp-collection"
+    },
+    {
+      "name": "superpowers",
+      "description": "Agentic skills framework - TDD, debugging, collaboration patterns (by obra)",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      },
+      "homepage": "https://github.com/obra/superpowers"
     }
   ]
 }
